@@ -1,0 +1,5 @@
+#container {
+    display: grid;
+    width: 700px;
+    height: 560px;
+}
