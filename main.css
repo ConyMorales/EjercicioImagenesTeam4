@@ -1,6 +1,64 @@
 #container {
     display: grid;
-    width: 700px;
-    height: 560px;
-    background-color: ivory;
+    width: 1050px;
+    height: 840px;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(4,200px);
+    grid-template-areas: 
+    "cornerTopLeft centerTopLeft centerTop centerTopRight cornerTopRight"
+    "mergeLeft mergeLeft mergeRight mergeRight ."
+    "mergeLeft mergeLeft mergeRight mergeRight centerRight"
+    ". centerBottomLeft . centerBottomRight .";
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+/* .big {
+    width: 410px;
+    height: 410px;
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    grid-area: cornerTopLeft;
+}
+
+#two {
+    grid-area: centerTopLeft;
+}
+
+#three {
+    grid-area: centerTop;
+}
+
+#four {
+    grid-area: centerTopRight;
+}
+
+#five {
+    grid-area: cornerTopRight;
+}
+
+#six {
+    grid-area: mergeLeft;
+}
+
+#seven {
+    grid-area: mergeRight;
+}
+
+#eight {
+    grid-area: centerRight;
+}*/
+
+#nine {
+    grid-area: centerBottomLeft;
+}
+
+#ten {
+    grid-area: centerBottomRight;
 }
