@@ -62,3 +62,21 @@
 #ten {
     grid-area: centerBottomRight;
 }
+
+.rick__title9 {
+    grid-area: centerBottomLeft;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
+}
+
+.rick__title10 {
+    grid-area: centerBottomRight;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
+}
