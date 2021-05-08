@@ -1,3 +1,4 @@
+
 #container{
     display: grid;
     width: 1050px;
@@ -12,10 +13,78 @@
     column-gap: 10px;
     row-gap: 10px;
 }
+
+
+/* .big {
+
 .big{
+
     width: 410px;
     height: 410px;
 }
+
+
+.small {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    grid-area: cornerTopLeft;
+}
+
+#two {
+    grid-area: centerTopLeft;
+}
+
+#three {
+    grid-area: centerTop;
+}
+
+#four {
+    grid-area: centerTopRight;
+}
+
+#five {
+    grid-area: cornerTopRight;
+}
+
+#six {
+    grid-area: mergeLeft;
+}
+
+#seven {
+    grid-area: mergeRight;
+}
+
+#eight {
+    grid-area: centerRight;
+}*/
+
+#nine {
+    grid-area: centerBottomLeft;
+}
+
+#ten {
+    grid-area: centerBottomRight;
+}
+
+.rick__title9 {
+    grid-area: centerBottomLeft;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
+}
+
+.rick__title10 {
+    grid-area: centerBottomRight;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
 
 .small{
     width: 200px;
